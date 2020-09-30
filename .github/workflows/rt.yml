@@ -21,7 +21,7 @@ jobs:
         ./scripts/feeds update -a
         ./scripts/feeds install -a
     - name: SSH connection to Actions
-      uses: P3TERX/debugger-action@master
+      uses: P3TERX/debugger-action@main
     - name: Download - openwrt build dependencies
       run: |
         cd openwrt
